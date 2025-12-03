@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background-1 {
+  background-color: pink;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5em 0em;
+  max-width: 94%;
+  margin: auto;
+  position: sticky;
+  font-family: "Irish Grover", system-ui;
+  z-index: 1;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  margin: 1.2em;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.Home {
+  color: #d60909 !important;
+}
+.btn {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  font-family: "Irish Grover", system-ui;
+  color: #e82d2d;
+  font-size: 19px;
+  padding: 10px 17px;
+  background-color: white;
+  border: white;
+  border-radius: 50px;
+}
+.btn svg {
+  width: 25px;
+  height: 25px;
+  fill: currentColor;
+  margin-left: 10px;
+}
+.main-box {
+  margin: auto;
+  max-width: 73%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 6.91em;
+}
+
+.first-half {
+  max-width: 38%;
+  display: flex;
+  flex-direction: column;
+}
+.first-half p {
+  max-width: 80%;
+  font-size: 3em;
+  color: white;
+  line-height: 75%;
+  font-family: "Agbalumo", system-ui;
+}
+.first-half p span {
+  color: rgb(170 25 22);
+  font-size: 1.5em;
+}
+.buttons {
+  padding-top: 2em;
+}
+.btn1 {
+  padding: 0.6em 1.2em;
+  border-radius: 2em;
+  border: #aa1916;
+  background-color: #aa1916;
+  color: white;
+  margin-right: 1em;
+}
+.btn2 {
+  padding: 0.6em 1.2em;
+  border-radius: 2em;
+  border: white;
+  background-color: white;
+  color: #aa1916;
+}
+.img-text {
+  display: flex;
+  align-items: end;
+}
+.img-text p {
+  font-size: 0.85em;
+  line-height: 1.3em;
+}
+.milk {
+  width: 10em;
+}
+.next {
+  width: 1.5em;
+  padding-top: 1em;
+}
+.second-div {
+  max-width: 46%;
+  background-color: rgb(251 214 221);
+  border-radius: 50%;
+  width: 24em;
+  height: 24em;
+  top: 4em;
+  left: 32em;
+  position: absolute;
+}
+.second-div img {
+  width: 10em;
+  position: absolute;
+  right: 7em;
+  top: 3em;
+}
+.third-section {
+  position: absolute;
+  max-width: 20%;
+  left: 66em;
+  top: 8em;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.num {
+  font-size: 4em;
+  color: #aa1916;
+  line-height: 75%;
+  font-family: "Agbalumo", system-ui;
+}
